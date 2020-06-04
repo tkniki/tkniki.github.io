@@ -39,7 +39,7 @@ button:hover {
   color: #e8bc5d;
 }
 
-form {
+article {
   display: flex;
  padding-bottom: 40px;
 }
@@ -90,8 +90,14 @@ section {
 }
 
 h1 {
+  font-size: 30px;
+}
+
+h2 {
   font-size: 60px;
 }
+
+
 
 
 header, div, blockquote {
@@ -109,10 +115,6 @@ div {
   margin-right: 0px;
   color: #222;
   line-height: 1.5;
-}
-
-article {
-  width: 300px;
 }
 
 div h3, h4 {
