@@ -4,7 +4,7 @@ if (myVariable !== true) {
 }
 
 for (let i = 0; i <= 50; i++) { 
-    if (i % 3 === 0 && i % 5 == 0) console.log(i) 
+    if (i % 3 == 0 && i % 5 == 0) console.log(i) 
 }
 
 for (let i = 1; i <= 20; i++) 
@@ -28,10 +28,8 @@ myNumbers.forEach((number) => {
 
 let printValues = [0, 3, 6, 7, 9];
 
-printValues => {
-    for (let i = 0; i < printValues.length; i++) {
-        console.log(printValues[i]);
-    }
-};
+printValues.forEach((number) => {
+    console.log(number);
+})
 
 
